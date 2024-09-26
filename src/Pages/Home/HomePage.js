@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react'
+import NavBarLogin from '../../components/Utiltes/NaveBarLogIn'
+import Slider from '../../components/Home/Slider'
 
-import NavBarLogin from "../../Components/Utiltes/NaveBarLogIn";
-import Silder from "../../Components/Home/Slider";
-
-export const HomePage = () => {
+const HomePage = () => {
   return (
-    <div className="font">
-      <NavBarLogin />
-      <Silder />
-    </div>
-  );
-};
+   <div className="font">
+    <NavBarLogin />
+    <Slider />
+  </div>
+  )
+}
+
+export default HomePage
