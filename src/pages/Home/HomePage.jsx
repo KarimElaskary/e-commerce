@@ -4,7 +4,7 @@ import Slider from '../../components/Home/Slider'
 
 const HomePage = () => {
   return (
-    <div className='font'>
+    <div className='font' style={{minHeight:'670'}}>
       <NavBarLogin />
       <Slider />
     </div>
