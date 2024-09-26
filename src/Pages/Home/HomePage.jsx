@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBarLogin from '../../components/Utiltes/NaveBarLogIn'
-import Slider from '../../components/Home/Slider'
+import NavBarLogin from '../../Components/Utiltes/NaveBarLogIn'
+import Slider from '../../Components/Home/Slider'
 
 const HomePage = () => {
   return (

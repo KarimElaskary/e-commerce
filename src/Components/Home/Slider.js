@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 
-import sliderimg from "../../images/slider1.png";
-import slider4 from "../../images/slider4.png";
-import prod3 from "../../images/prod3.png";
-import prod4 from "../../images/prod4.png";
+import sliderimg from "../../Images/slider1.png";
+import slider4 from "../../Images/slider4.png";
+import prod3 from "../../Images/prod3.png";
+import prod4 from "../../Images/prod4.png";
 
 const Slider = () => {
   const [index, setIndex] = useState(0);

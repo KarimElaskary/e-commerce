@@ -1,8 +1,8 @@
 import React from "react";
 import { Navbar, Container, FormControl, Nav } from "react-bootstrap";
-import logo from "../../images/logo.png";
-import login from "../../images/login.png";
-import cart from "../../images/cart.png";
+import logo from "../../Images/logo.png";
+import login from "../../Images/login.png";
+import cart from "../../Images/cart.png";
 const NavBarLogin = () => {
   return (
     <Navbar className="sticky-top" bg="dark" variant="dark" expand="sm">
