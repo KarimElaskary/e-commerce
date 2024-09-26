@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-const LoginPage = () => {
+const Login = () => {
   return (
     <Container style={{ minHeight: '680px' }}>
       <Row className='py-5 d-flex justify-content-center '>
@@ -20,11 +20,11 @@ const LoginPage = () => {
           <button className='btn-login mx-auto mt-4'>تسجيل الدخول</button>
           <label className='mx-auto my-4'>
             ليس لديك حساب ؟{' '}
-            {/* <Link to='/register' style={{ textDecoration: 'none' }}> */}
+            <Link to='/register' style={{ textDecoration: 'none' }}>
               <span style={{ cursor: 'pointer' }} className='text-danger'>
                 اضغط هنا
               </span>
-            {/* </Link> */}
+            </Link>
           </label>
         </Col>
 
@@ -46,4 +46,4 @@ const LoginPage = () => {
   )
 }
 
-export default LoginPage
+export default Login
