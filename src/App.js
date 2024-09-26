@@ -1,11 +1,11 @@
-import HomePage from './Pages/Home/HomePage'
-import Login from './Pages/Auth/Login'
+import { HomePage } from "./Pages/Home/HomePage";
+import Login from "./Pages/Auth/Login";
 
 function App() {
   return (
     <div>
-      {/* <HomePage /> */}
-      <Login/>
+      <HomePage />
+      <Login />
     </div>
   );
 }
