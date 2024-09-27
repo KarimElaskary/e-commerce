@@ -4,6 +4,7 @@ import NavBarLogin from "../../Components/Utiltes/NaveBarLogIn";
 import CardProductsContainer from "../../Components/products/CardProductsContainer";
 import DiscountSection from "../../Components/Home/DiscountSection";
 import BrandFeatured from "../../Components/Brand/BrandFeatured";
+import Footer from "../../Components/Utiltes/Footer";
 
 export const HomePage = ({}) => {
   return (
@@ -16,6 +17,7 @@ export const HomePage = ({}) => {
       <DiscountSection />
       <CardProductsContainer title=" احدث الازياء" btntitle="المزيد" />
       <BrandFeatured title=" اشهر المركات " btntitle="المزيد" />
+      <Footer />
     </div>
   );
 };
