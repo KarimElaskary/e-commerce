@@ -20,27 +20,27 @@ const Login = () => {
           <button className="btn-login mx-auto mt-4">تسجيل الدخول</button>
           <label className="mx-auto my-4">
             ليس لديك حساب ؟{" "}
-            {/* <Link to='/register' style={{ textDecoration: 'none' }}> */}
-            <span style={{ cursor: "pointer" }} className="text-danger">
-              اضغط هنا
-            </span>
-            {/* </Link> */}
+            <Link to="/register" style={{ textDecoration: "none" }}>
+              <span style={{ cursor: "pointer" }} className="text-danger">
+                اضغط هنا
+              </span>
+            </Link>
           </label>
         </Col>
-
+        {/* 
         <label className="mx-auto my-4">
-          {/* <Link to='/admin/allproducts' style={{ textDecoration: 'none' }}> */}
-          {/* <span style={{ cursor: 'pointer' }} className='text-danger'>
+          <Link to="/admin/allproducts" style={{ textDecoration: "none" }}>
+            <span style={{ cursor: "pointer" }} className="text-danger">
               الدخول ادمن
-            </span> */}
-          {/* </Link> */}
+            </span>
+          </Link>
 
-          {/* <Link to='/user/allorders' style={{ textDecoration: 'none' }}> */}
-          {/* <span style={{ cursor: 'pointer' }} className='text-danger mx-3'>
+          <Link to="/user/allorders" style={{ textDecoration: "none" }}>
+            <span style={{ cursor: "pointer" }} className="text-danger mx-3">
               الدخول مستخدم
-            </span> */}
-          {/* </Link> */}
-        </label>
+            </span>
+          </Link>
+        </label> */}
       </Row>
     </Container>
   );
