@@ -26,11 +26,11 @@ const Register = () => {
           <button className="btn-login mx-auto mt-4">تسجيل الحساب</button>
           <label className="mx-auto my-4">
             لديك حساب بالفعل؟{" "}
-            {/* <Link to="/login" style={{ textDecoration: "none" }}> */}
-            <span style={{ cursor: "pointer" }} className="text-danger">
-              اضغط هنا
-            </span>
-            {/* </Link> */}
+            <Link to="/login" style={{ textDecoration: "none" }}>
+              <span style={{ cursor: "pointer" }} className="text-danger">
+                اضغط هنا
+              </span>
+            </Link>
           </label>
         </Col>
       </Row>
