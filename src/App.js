@@ -7,6 +7,7 @@ import Footer from "./Components/Utiltes/Footer";
 import AllCategoryPage from "./Pages/Category/AllCategoryPage";
 import AllBrandPage from "./Pages/Brand/AllBrandPage";
 import ShopProductsPage from "./Pages/Products/ShopProductsPage";
+import ProductDetalisPage from "./Pages/Products/ProductDetalisPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/allcategory" element={<AllCategoryPage />} />
           <Route path="/allbrand" element={<AllBrandPage />} />
           <Route path="/product" element={<ShopProductsPage />} />
+          <Route path="/products/:id" element={<ProductDetalisPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
