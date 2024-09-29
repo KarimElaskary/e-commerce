@@ -27,7 +27,7 @@ const Login = () => {
             </Link>
           </label>
         </Col>
-        {/* 
+
         <label className="mx-auto my-4">
           <Link to="/admin/allproducts" style={{ textDecoration: "none" }}>
             <span style={{ cursor: "pointer" }} className="text-danger">
@@ -40,7 +40,7 @@ const Login = () => {
               الدخول مستخدم
             </span>
           </Link>
-        </label> */}
+        </label>
       </Row>
     </Container>
   );
